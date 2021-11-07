@@ -12,16 +12,11 @@ the input array text box and button.
 from tkinter import (Frame, N, E, W, NW, StringVar, DISABLED, Text,
                      IntVar, DoubleVar, END, Canvas, PhotoImage, ttk,
                      filedialog, Tk, messagebox, Spinbox, Checkbutton)
-
 from os import path
-
 import tempfile
-
 import csv
-
 from numpy import (transpose, asarray, sqrt, append, savetxt, ones,
                    amin, amax)
-
 import matplotlib.pyplot as plt
 
 def power_(list_, exponent_):
